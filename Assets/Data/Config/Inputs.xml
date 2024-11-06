@@ -43,7 +43,7 @@
       <Binding Index="0" Path="&lt;Keyboard&gt;/4" />
     </Action>
     <Action Name="input.action.unequip">
-      <Binding Index="0" Path="&lt;Keyboard&gt;/backquote" />
+      <Binding Index="0" Path="&lt;Keyboard&gt;/b" />
     </Action>
     <Action Name="input.action.look*">
       <Binding Index="0" Path="&lt;Mouse&gt;/delta" />
