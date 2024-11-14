@@ -1,20 +1,16 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class ZombieSpawner : MonoBehaviour
 {
     public GameObject[] zombiePrefabs; // Array de prefabs de zombis
-    public float spawnRadius = 10f;    // Radio donde se generarán los zombis
-    public float spawnInterval = 2f;   // Intervalo entre apariciones
-    public int maxZombies = 10;         // Número máximo de zombis a generar
+    public float spawnRadius = 20f;    // Radio donde se generarán los zombis
+    public float spawnInterval = 6f;   // Intervalo entre apariciones
+    public int maxZombies = 1;         // Número máximo de zombis a generar
 
-    private void OnTriggerEnter(Collider other)
+    public void Spawnear()
     {
-        // Verifica que el trigger se activó por un objeto específico, por ejemplo, el jugador
-        if (other.CompareTag("HEROPLAYER"))
-        {
-            // Empieza a generar zombis al entrar al área del trigger
-            StartCoroutine(SpawnZombies());
-        }
+        StartCoroutine(SpawnZombies());
     }
 
     private System.Collections.IEnumerator SpawnZombies()
@@ -32,7 +28,9 @@ public class ZombieSpawner : MonoBehaviour
             );
 
             // Instancia el zombi en la posición generada
-            Instantiate(zombiePrefab, spawnPosition, Quaternion.identity);
+            GameObject zom = Instantiate(zombiePrefab, spawnPosition, Quaternion.identity);
+
+            zom.GetComponent<NavMeshAgent>().enabled = true;
 
             // Espera un intervalo antes de generar el siguiente zombi
             yield return new WaitForSeconds(spawnInterval);
