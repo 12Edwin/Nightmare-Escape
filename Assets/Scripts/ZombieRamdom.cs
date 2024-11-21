@@ -4,8 +4,8 @@ using UnityEngine.AI;
 public class ZombieSpawner : MonoBehaviour
 {
     public GameObject[] zombiePrefabs; // Array de prefabs de zombis
-    public float spawnRadius = 20f;    // Radio donde se generarán los zombis
-    public float spawnInterval = 6f;   // Intervalo entre apariciones
+    public float spawnRadius = 30f;    // Radio donde se generarán los zombis
+    public float spawnInterval = 10f;   // Intervalo entre apariciones
     public int maxZombies = 1;         // Número máximo de zombis a generar
 
     public void Spawnear()

@@ -88,11 +88,7 @@ Material:
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
-<<<<<<< HEAD
-    - _BlendAmount: 0.25
-=======
-    - _BlendAmount: 0.00009855954
->>>>>>> 7de55336d06d4cefd393b20dbab7f79d81133aaa
+    - _BlendAmount: 0.0074711433
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
     - _ClearCoatMask: 0

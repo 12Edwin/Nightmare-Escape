@@ -318,9 +318,29 @@ MonoBehaviour:
 
         1x Scrap'
     - Key: bloody
-      Text: 'IF YOU ARE READING THIS
+      Text: 'Si estas leyendo esto no mires atras de ti.
 
-        DON''T LOOK BEHIND YOU'
+
+        Atte:???'
+    - Key: medkit
+      Text: 'Puedes usar este medkit para curarte.
+
+
+
+        Atte: ???'
+    - Key: pistol
+      Text: 'Una pistola es mejor que un hacha, pero recuerda las balas son contadas.
+
+
+
+        Atte:
+        ???'
+    - Key: objective
+      Text: 'Consigue una llave y sal.
+
+
+
+        Atte: ???'
   - Section: inventory
     Localizations:
     - Key: context.use
