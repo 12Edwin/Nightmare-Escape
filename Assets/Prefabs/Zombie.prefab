@@ -219,6 +219,7 @@ GameObject:
   - component: {fileID: 8523092456245194648}
   - component: {fileID: 2542028017893400290}
   - component: {fileID: 2379505973187722500}
+  - component: {fileID: 417784003525953955}
   m_Layer: 9
   m_Name: Zombie
   m_TagString: Untagged
@@ -413,10 +414,34 @@ MonoBehaviour:
       m_Calls: []
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 417784003525953955}
+        m_TargetAssemblyTypeName: Buscar, Assembly-CSharp
+        m_MethodName: buscar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnCorpseRemove:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &417784003525953955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833487137727009364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e0dbf51124cf7b4eb39554bbd434c9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &982081852898188087
 GameObject:
   m_ObjectHideFlags: 0

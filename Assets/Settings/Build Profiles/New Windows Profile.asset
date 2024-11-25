@@ -20,15 +20,13 @@ MonoBehaviour:
     rid: 2573177599818465301
   m_OverrideGlobalSceneList: 1
   m_Scenes:
-  - m_enabled: 0
-    m_path: Assets/ThunderWire Studio/UHFPS/Content/Scenes/Menu.unity
   - m_enabled: 1
     m_path: Assets/ThunderWire Studio/UHFPS/Content/Scenes/MainMenu.unity
   - m_enabled: 1
     m_path: Assets/ThunderWire Studio/UHFPS/Content/Scenes/LevelManager.unity
-  - m_enabled: 1
+  - m_enabled: 0
     m_path: Assets/ThunderWire Studio/UHFPS/_Demo/Scenes/Playground.unity
-  - m_enabled: 1
+  - m_enabled: 0
     m_path: Assets/ThunderWire Studio/UHFPS/_Demo/Scenes/Scene1.unity
   - m_enabled: 1
     m_path: Assets/ThunderWire Studio/UHFPS/_Demo/Scenes/Scene2.unity

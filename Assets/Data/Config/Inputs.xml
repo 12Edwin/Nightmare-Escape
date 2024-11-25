@@ -73,7 +73,7 @@
       <Binding Index="0" Path="&lt;Keyboard&gt;/space" />
     </Action>
     <Action Name="input.action.inventory.select">
-      <Binding Index="0" Path="&lt;Mouse&gt;/leftButton" />
+      <Binding Index="0" Path="null" />
     </Action>
     <Action Name="input.action.cursor">
       <Binding Index="0" Path="&lt;Mouse&gt;/rightButton" />
