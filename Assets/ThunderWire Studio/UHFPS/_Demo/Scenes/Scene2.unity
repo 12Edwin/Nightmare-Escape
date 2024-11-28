@@ -103247,7 +103247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CameraHolder: {fileID: 8602403268834405229}
-  MainCamera: {fileID: 0}
+  MainCamera: {fileID: 5172454014784756287}
   MainVirtualCamera: {fileID: 99188595115884317}
 --- !u!224 &5756055091865388223
 RectTransform:
