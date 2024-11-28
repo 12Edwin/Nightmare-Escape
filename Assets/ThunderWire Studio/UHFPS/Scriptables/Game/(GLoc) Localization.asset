@@ -341,6 +341,13 @@ MonoBehaviour:
 
 
         Atte: ???'
+    - Key: introduccion
+      Text: 'Se que tienes muchas preguntas pero, no puedo responderlas, solo confia
+        en mi. Te dejo la llave para que puedas salir buena suerte.
+
+
+        Atte:
+        ????'
   - Section: inventory
     Localizations:
     - Key: context.use
