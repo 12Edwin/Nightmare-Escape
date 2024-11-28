@@ -26,8 +26,6 @@ MonoBehaviour:
     m_path: Assets/ThunderWire Studio/UHFPS/Content/Scenes/LevelManager.unity
   - m_enabled: 0
     m_path: Assets/ThunderWire Studio/UHFPS/_Demo/Scenes/Playground.unity
-  - m_enabled: 0
-    m_path: Assets/ThunderWire Studio/UHFPS/_Demo/Scenes/Scene1.unity
   - m_enabled: 1
     m_path: Assets/ThunderWire Studio/UHFPS/_Demo/Scenes/Scene2.unity
   - m_enabled: 0
