@@ -348,6 +348,11 @@ MonoBehaviour:
 
         Atte:
         ????'
+    - Key: Final
+      Text: 'Ahora eres libre....
+
+
+        Atte: ????'
   - Section: inventory
     Localizations:
     - Key: context.use
